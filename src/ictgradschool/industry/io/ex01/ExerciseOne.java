@@ -30,6 +30,17 @@ public class ExerciseOne {
                 }
               num = fR.read();
 
+//            try (FileReader reader = new FileReader(new File("input2.txt"))) {
+//
+//                int input;
+//                while ((input = reader.read()) >= 0) {
+//                    total++;
+//                    char c = (char) input;
+//                    if (c == 'e' || c == 'E') {
+//                        numE++;
+//                    }
+//                }
+
             }
         } catch (FileNotFoundException e) {
             System.out.println("File not Found" + e);
@@ -61,6 +72,19 @@ public class ExerciseOne {
                 }
 
             }
+
+
+//try (BufferedReader reader= new BufferedReader(new FileReader(input2.txt))){
+//
+//            String line;
+//            while ((line = reader.readLine()) != null) {
+//                total += line.length();
+//                for (char c : line.toCharArray()) {
+//                    if (c == 'e' || c == 'E') {
+//                        numE++;
+//                    }
+//                }
+
 
             }catch(IOException e){
                 System.out.println("Error" + e.getMessage());
