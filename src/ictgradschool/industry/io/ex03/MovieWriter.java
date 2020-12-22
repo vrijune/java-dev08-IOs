@@ -50,7 +50,6 @@ public class MovieWriter {
         System.out.println("Movies saved successfully to " + fileName + "!");
     }
 
-
     /**
      * Returns an array with a bunch of hard-coded movie data
      */

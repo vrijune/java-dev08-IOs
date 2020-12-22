@@ -13,7 +13,8 @@ import java.io.PrintWriter;
  * Created by anhyd on 20/03/2017.
  */
 public class Ex4MovieWriter extends MovieWriter {
-System.out.print("Enter a file name: ");
+
+     System.out.print("Enter a file name: ");
     String films = Keyboard.readInput();
 
 
@@ -46,8 +47,8 @@ System.out.print("Enter a file name: ");
         csvData.append(',');
         writer.write(csvData.toString());
         writer.close();
-    }
-    
+
+
         return films;
     }
 
